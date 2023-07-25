@@ -1,19 +1,27 @@
 {
   "name": "async-http-processor",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Привет! Это проект для решения тестового задания на должность \"Разработчик NodeJS\".",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node M2.js"
+    "start": "node ./src/M2.js & node ./src/M1.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sultanov Baigeldy Abdyhashimovich",
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.10.3",
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "pino": "^8.14.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjdskhooba/nodejs-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hjdskhooba/nodejs-task/issues"
+  },
+  "homepage": "https://github.com/hjdskhooba/nodejs-task#readme"
 }
